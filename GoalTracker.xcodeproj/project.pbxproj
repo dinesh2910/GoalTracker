@@ -58,9 +58,10 @@
 		B6F17554249FFD9B009D54BB /* GoalTracker */ = {
 			isa = PBXGroup;
 			children = (
-				B6F17555249FFD9B009D54BB /* AppDelegate.swift */,
-				B6F17557249FFD9B009D54BB /* SceneDelegate.swift */,
-				B6F17559249FFD9B009D54BB /* ViewController.swift */,
+				B6F1756F24A00115009D54BB /* Delegates */,
+				B6F1756E24A0010B009D54BB /* Models */,
+				B6F1756D24A00105009D54BB /* Views */,
+				B6F1756C24A000F9009D54BB /* Controllers */,
 				B6F1755B249FFD9B009D54BB /* Main.storyboard */,
 				B6F17561249FFD9E009D54BB /* Assets.xcassets */,
 				B6F17563249FFD9E009D54BB /* LaunchScreen.storyboard */,
@@ -68,6 +69,37 @@
 				B6F1755E249FFD9B009D54BB /* GoalTracker.xcdatamodeld */,
 			);
 			path = GoalTracker;
+			sourceTree = "<group>";
+		};
+		B6F1756C24A000F9009D54BB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6F17559249FFD9B009D54BB /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B6F1756D24A00105009D54BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6F1756E24A0010B009D54BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B6F1756F24A00115009D54BB /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B6F17555249FFD9B009D54BB /* AppDelegate.swift */,
+				B6F17557249FFD9B009D54BB /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
